@@ -1,0 +1,312 @@
+[
+  {
+    "timestamp": "2026-06-24T16:43:10.472160+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "6k1/6b1/B5p1/1pr3p1/2p1P3/6P1/P4P1P/1R4K1 b - - 2 32",
+    "mode": "without_stockfish",
+    "best_move_san": "b5",
+    "concept": "kingside attack",
+    "justification": "The move b5 aims to create a passed pawn on the queenside and prepare for potential pawn promotion, but more immediately, it supports a kingside attack by potentially opening lines for the bishop on g7 to influence the kingside. This concept of kingside attack is relevant because Black's position is somewhat cramped, and the kingside pieces, particularly the bishop, could become more active in attacking White's position, especially if White's king safety is compromised. By playing b5, Black sets the stage for potentially exploiting any weaknesses on the kingside, such as the somewhat exposed king or the pawns that could become targets for the bishop or other pieces in the future.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:43:16.503390+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "rnbqk1nr/1ppp1ppp/p7/2b1p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 0 4",
+    "mode": "without_stockfish",
+    "best_move_san": "d4",
+    "concept": "kingside attack",
+    "justification": "The move d4 is the best move because it prepares to develop other pieces and control the center of the board, which is essential for a kingside attack. By playing d4, White gains more space and mobility for their pieces, making it easier to launch a potential attack on the kingside. This move also puts pressure on Black's position and prepares to develop other pieces, such as the dark-squared bishop and the queen, which can participate in the kingside attack.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:43:24.352818+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "4k2r/rb1qbppp/3p4/1p1P4/8/1Q3N2/PP3PPP/R3R1K1 w k - 2 19",
+    "mode": "without_stockfish",
+    "best_move_san": "Qe4",
+    "concept": "pin",
+    "justification": "The move Qe4 is the best move because it puts the queen in a position to potentially pin the black bishop on c6 against the black king on g8, which could lead to a significant advantage. By playing Qe4, White prepares to take advantage of the bishop's position and potentially gain a tactical edge, illustrating the concept of a pin.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:43:37.992977+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "6k1/pp3ppp/5b2/8/5nQP/1P6/Pq4PK/8 w - - 0 31",
+    "mode": "without_stockfish",
+    "best_move_san": "Qh5+",
+    "concept": "fork",
+    "justification": "The move Qh5+ is the best move because it creates a fork, attacking both the king and the queen. This forces the king to move, and after the king moves, the queen will be captured, resulting in a significant material gain. The fork concept is the underlying tactical idea behind this move, as it takes advantage of the fact that the opponent's king and queen are on the same rank, allowing the queen to attack both simultaneously.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:43:51.611429+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r4rk1/pp2bpp1/2n2n1p/1B1p1q2/3Q3B/2N5/PPP2PPP/R3R1K1 w - - 2 14",
+    "mode": "without_stockfish",
+    "best_move_san": "Qh5",
+    "concept": "attack on f7",
+    "justification": "The move Qh5 puts pressure on the kingside, particularly targeting the weak point f7. By playing Qh5, White prepares to potentially launch a kingside attack, taking advantage of the fact that f7 is only defended by the Black king. This concept of attacking f7 is a common strategic idea, as it can weaken Black's position and create opportunities for further attack. In this position, Qh5 is a strong move because it develops the queen to a active square, puts pressure on the position, and prepares to potentially exploit the weakness on f7.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:44:04.288661+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "7r/3k1ppp/5b2/p1p5/4P3/2N2P2/Pr3P1P/R3K2R w KQ - 0 17",
+    "mode": "without_stockfish",
+    "best_move_san": "c4",
+    "concept": "kingside attack",
+    "justification": "The move c4 is aimed at preparing to open lines on the kingside for the rooks to potentially attack the black king. By playing c4, White is supporting the d5 square, which could become a strong outpost for a piece, and also getting ready to push d5, which would open up the d-file for the rook to use as a potential attacking route towards the black king, thus initiating a kingside attack.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:46:13.514743+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "3r2k1/1p3ppp/2p1p3/p3P2b/Pb2PP2/1QN3Pq/1P2B2P/3R3K b - - 1 23",
+    "mode": "without_stockfish",
+    "best_move_san": "Qh4+",
+    "concept": "fork",
+    "justification": "The move Qh4+ is the best move because it puts the queen in a position to potentially fork the king and the rook on the next move, forcing the opponent to move one of their pieces and creating a weakness that can be exploited. This is an example of a fork, as the queen is attacking two pieces at the same time, and it is a powerful tactical concept that can be used to gain an advantage.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:47:18.437211+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "4rrk1/pp1b1ppp/4p2n/3p4/3P4/Pq1B1R2/4N1P1/3R1QK1 w - - 0 21",
+    "mode": "without_stockfish",
+    "best_move_san": "Qe4",
+    "concept": "fork",
+    "justification": "The move Qe4 is the best move because it puts the queen in a position to potentially fork the black rooks on the next move, gaining a significant advantage. By moving the queen to e4, White is preparing to attack the black position and gain a tactical advantage through the concept of a fork, where one piece attacks multiple enemy pieces simultaneously, forcing the opponent to choose which piece to save.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:47:31.914860+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "rn1k1b1r/ppp2pp1/4b1np/4P3/2p5/2N2N2/PP1BPPPP/2KR1B1R w - - 4 9",
+    "mode": "without_stockfish",
+    "best_move_san": "Nc3",
+    "concept": "kingside attack",
+    "justification": "The move Nc3 is a preparation for a kingside attack, as it develops the knight to a good square where it can potentially attack Black's position on the kingside. This is a strategic concept, as it aims to create long-term threats against Black's king, rather than seeking an immediate tactical advantage. By playing Nc3, White is setting up a potential attack on the kingside, which could involve pieces such as the queen, bishop, and other knights. This move is correct because it develops a piece, controls the center, and prepares for a potential kingside attack, all of which are key strategic goals in the opening.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:47:38.777472+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r1bq1rk1/ppppn1pp/2n5/1Bb1P3/8/1Q3N2/PP1B1PPP/RN2R1K1 b - - 4 12",
+    "mode": "without_stockfish",
+    "best_move_san": "Nc6",
+    "concept": "fork",
+    "justification": "The move Nc6 is the best move because it prepares to develop other pieces and potentially creates a fork on the queenside, putting pressure on White's position. By playing Nc6, Black is also eyeing the d4 square and preparing to control the center of the board, which could lead to a potential fork if White's pieces are not carefully placed, thus utilizing the concept of a fork to gain a strategic advantage.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:47:56.303797+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r1b5/pp3R2/3p2k1/4p1r1/4P3/8/P5PP/5RK1 w - - 2 25",
+    "mode": "without_stockfish",
+    "best_move_san": "Rxf7",
+    "concept": "exposed king",
+    "justification": "The black king is exposed and not sufficiently protected, making it vulnerable to attack. The move Rxf7 takes advantage of this exposure by directly attacking the king, putting pressure on Black's position and potentially leading to material gain or further weakening of the king's safety. This move is particularly strong because it targets the weak point in Black's position, which is the exposed king.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:48:08.408695+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r1b3k1/1p3p2/p2p2p1/6P1/2P1P1n1/1P3QP1/PB1qB3/1R3K2 b - - 8 28",
+    "mode": "without_stockfish",
+    "best_move_san": "Qg5",
+    "concept": "fork",
+    "justification": "The move Qg5 is the best move because it creates a fork, attacking both the white king and the pawn on e4. This forces white to choose which piece to save, allowing black to gain a significant advantage. The fork concept is key here, as it enables black to put pressure on multiple white pieces simultaneously, making it difficult for white to respond effectively.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:48:17.828581+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "6k1/7p/1p4p1/2b5/8/5NP1/P3RP1P/3r1BK1 w - - 1 34",
+    "mode": "without_stockfish",
+    "best_move_san": "Rxg7",
+    "concept": "exposed king",
+    "justification": "The black king is exposed and not sufficiently protected, making it vulnerable to attack. By playing Rxg7, White takes advantage of this exposure, directly attacking the king and putting pressure on Black's position. This move aims to exploit the weakness of the exposed king, potentially leading to a stronger attack or material gain.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:48:27.208404+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r3k2r/pp3p2/2p1b3/2N4q/3Qp1p1/1P4P1/P3N2P/1R3RK1 b kq - 3 21",
+    "mode": "without_stockfish",
+    "best_move_san": "Qg5",
+    "concept": "fork",
+    "justification": "The move Qg5 is the best move because it creates a fork, attacking both the white king and the knight on d4. This forces white to choose which piece to save, allowing black to gain a significant advantage. The fork concept is particularly effective here, as it puts pressure on white's position and limits their possible responses.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:51:06.788841+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r1b1r3/pp3k1p/5pp1/3q4/4p3/5PB1/P1B1Q1PP/5RK1 w - - 0 32",
+    "mode": "without_stockfish",
+    "best_move_san": "Qe4",
+    "concept": "pin",
+    "justification": "The move Qe4 is the best move because it puts pressure on the black position by attacking the pawn on d5, which is defended by the queen on d6. By playing Qe4, White creates a pin against the black queen, which could potentially lead to the gain of a pawn or other advantages if Black tries to move the queen. This is an example of a pin, where an attacking piece attacks a defended piece, and the defender is more valuable than the attacked piece, making it difficult for Black to respond.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:51:23.688185+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "8/6kp/1qPN2p1/3Pb3/2P1P2P/8/6P1/5R1K w - - 4 35",
+    "mode": "without_stockfish",
+    "best_move_san": "Qd6",
+    "concept": "pin",
+    "justification": "The move Qd6 is the best move because it puts pressure on the black bishop on d5, which is pinned against the black king. This means that if the bishop moves, the black king will be exposed to check by the white queen, thus the bishop cannot move. This limits black's mobility and creates a strong initiative for white, taking advantage of the concept of a pin to gain a strategic advantage.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:51:42.639991+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "4r2k/1b4p1/2q3pp/p1N1P1r1/2Qp4/1P3P2/P5PP/R3R1K1 w - - 1 28",
+    "mode": "without_stockfish",
+    "best_move_san": "Qg4",
+    "concept": "pin",
+    "justification": "The best move is Qg4, which puts pressure on the black position and prepares to attack the black rook on f7. The underlying concept is a pin, as the queen on g4 will potentially pin the black rook against the black king, making it difficult for Black to move the rook without putting the king in check. This pin will limit Black's options and create opportunities for White to launch a kingside attack.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:51:57.169215+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "8/5p2/pp2bk2/2p4p/2P1K2P/1P3PP1/P1N5/8 b - - 1 28",
+    "mode": "without_stockfish",
+    "best_move_san": "b5",
+    "concept": "kingside attack",
+    "justification": "The move b5 aims to create a passed pawn on the queenside and prepare for potential promotion, but more immediately, it supports the kingside attack by potentially opening lines for the black pieces to attack the white king position. The concept of kingside attack is relevant here because, although the move itself is on the queenside, its strategic goal is to distract White and create threats that could divert attention from the defense of the king, thereby indirectly supporting a potential kingside attack in the future. This is a strategic decision to improve Black's pawn structure and mobility, setting the stage for a stronger initiative on the kingside in subsequent moves.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:52:05.259174+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "1r4k1/p1n2r1p/1b2N1p1/2p1PP2/2p3Pq/5Q2/P1P4P/2B2R1K w - - 2 31",
+    "mode": "without_stockfish",
+    "best_move_san": "Qg4",
+    "concept": "pin",
+    "justification": "The move Qg4 is the best move because it puts pressure on the black position by attacking the queen on g5, which is pinned against the king by the white queen. This pin limits Black's options for responding, as moving the queen would put the king in check. By playing Qg4, White takes advantage of this tactical opportunity to gain a strategic advantage, highlighting the concept of a pin.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:52:19.901605+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "rn3rk1/ppb2ppp/2p1p3/8/3PN2q/5N2/PPPBBPPn/R2Q1RK1 b - - 9 16",
+    "mode": "without_stockfish",
+    "best_move_san": "Qh5+",
+    "concept": "fork",
+    "justification": "The move Qh5+ is the best move because it creates a fork, attacking both the king and the knight. This forces the opponent to move their king, exposing it to potential attacks, while also potentially gaining a material advantage by capturing the knight. The fork concept is particularly effective in this position, as it takes advantage of the proximity of the king and knight to the queen, putting pressure on the opponent's position and creating opportunities for further attacks.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:52:36.182936+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "R7/5p2/1K6/5b2/8/8/2p3kp/2R5 b - - 0 58",
+    "mode": "without_stockfish",
+    "best_move_san": "b5",
+    "concept": "advanced pawn",
+    "justification": "The move b5 is the best move because it utilizes the concept of an advanced pawn. By playing b5, Black advances their pawn on the queenside, gaining more space and control over the board. This move also prepares to potentially create a passed pawn, which could become a strong asset in the endgame. Additionally, advancing the pawn does not weaken Black's position and puts pressure on White's rook on the seventh rank, making it harder for White to maneuver. The concept of an advanced pawn is key here, as it allows Black to take the initiative and improve their chances of winning or drawing the game.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:52:50.927602+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "rn2kb1r/p3pppp/1q3n2/8/p1B1pPQ1/8/1PPP3P/RNB1K1R1 w Qkq - 3 15",
+    "mode": "without_stockfish",
+    "best_move_san": "Qe4",
+    "concept": "fork",
+    "justification": "The move Qe4 threatens to fork the black king and queen, putting pressure on the opponent to respond to this threat. By playing Qe4, White takes advantage of the fact that the black king and queen are on the same rank, allowing the queen to potentially attack both pieces simultaneously. This forces Black to move one of the pieces, giving White a strategic advantage.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:52:58.805363+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "3q3k/4R3/p3p3/1p1p1ppp/2rP4/Q3P1P1/PP3PPK/8 b - - 12 41",
+    "mode": "without_stockfish",
+    "best_move_san": "Qe5",
+    "concept": "fork",
+    "justification": "The move Qe5 is the best move because it puts the queen in a position to fork the king and rook, potentially winning material. By moving to e5, the queen attacks both the king on g8 and the rook on d2, taking advantage of their alignment on the same rank. This is a classic example of a fork, where a single piece attacks multiple enemy pieces simultaneously, forcing the opponent to choose which piece to save.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:53:06.562274+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r3r1k1/5p2/p6p/1p4p1/2p5/2P2QP1/PP2RP1q/R4K2 b - - 0 27",
+    "mode": "without_stockfish",
+    "best_move_san": "Qh5+",
+    "concept": "exposed king",
+    "justification": "The move Qh5+ is the best move because it takes advantage of the exposed king on the opposite side of the board. By moving the queen to h5 and giving check, black is forcing the white king to move, which could potentially weaken its position and create opportunities for a kingside attack. The exposed king concept is relevant here because white's king is not well-protected, and black is using this to their advantage to gain a strategic upper hand.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:53:40.262988+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r3k2r/ppq1bppp/2n1p1b1/1B1n4/3P4/4BNNP/PP3PP1/R2Q1RK1 b kq - 4 14",
+    "mode": "without_stockfish",
+    "best_move_san": "b5",
+    "concept": "kingside attack",
+    "justification": "The move b5 aims to challenge White's control of the queenside and prepare for potential pawn breaks on the queenside, but more importantly, it indirectly supports a future kingside attack by freeing the b-pawn and potentially opening lines for the pieces to attack the White king. This concept of kingside attack is relevant because Black's current position, with the bishop on g4 and the potential to develop other pieces towards the kingside, suggests that a future attack on the White king could be a viable strategy. By playing b5, Black takes a step towards controlling the center and preparing for a potential attack on the White king, which aligns with the concept of a kingside attack.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:53:50.524732+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "1r3r2/3p1p1k/4b1pP/p7/1pq5/3B2R1/PPPQ1P2/1K2R3 b - - 15 36",
+    "mode": "without_stockfish",
+    "best_move_san": "Qe5",
+    "concept": "fork",
+    "justification": "The move Qe5 is the best move because it creates a fork, attacking both the white rook on f1 and the king on g1, putting pressure on the white position and gaining a significant advantage. This move takes advantage of the fact that the white rook and king are on the same rank, allowing the black queen to attack both simultaneously, which is a key characteristic of a fork.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:54:13.564613+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "2k5/3b3p/3p3B/3Pn3/2P1P1P1/p3N2P/4B3/7K b - - 0 37",
+    "mode": "without_stockfish",
+    "best_move_san": "Nc3",
+    "concept": "fork",
+    "justification": "The move Nc3 is the best move because it prepares to fork the white king and bishop on the next move, potentially winning material. By moving the knight to c3, black sets up a potential fork that could force white to choose between moving their king into check or losing their bishop, giving black a significant advantage. This concept of forking is a key tactical idea in chess, where a single piece attacks multiple enemy pieces simultaneously, and in this case, it could be the decisive factor in the game.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:54:28.002661+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "5r1k/pp4pp/1qnp4/2b3N1/2b5/2N1r3/PP4PP/R4RK1 w - - 0 21",
+    "mode": "without_stockfish",
+    "best_move_san": "Nxf7",
+    "concept": "attack on f7",
+    "justification": "The best move is Nxf7, which directly attacks the weak point f7. This move is correct because it takes advantage of the concept of an attack on f7, a common weakness in many positions. By playing Nxf7, White targets the pawn on f7, which is only defended by the Black king, and gains a significant advantage. This attack can lead to material gain or weaken Black's position, making it a strong strategic decision.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:54:36.897970+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "6k1/2p1Pp1p/pp4p1/1q6/3r1P2/P1nP3B/6QP/7K w - - 1 33",
+    "mode": "without_stockfish",
+    "best_move_san": "Qg4",
+    "concept": "pin",
+    "justification": "The best move is Qg4, which utilizes the concept of a pin. By playing Qg4, White puts pressure on the Black rook on d4, which is defended by the Black queen on d5. If Black moves the rook, the queen will be exposed to capture, thus creating a pin. This forces Black to consider the potential consequences of moving the rook, limiting their mobility and creating a strategic advantage for White.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:55:09.986742+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "2r2rk1/p3p2p/bpR2pp1/3P4/1Q2Pq2/5B2/P4PPP/2R3K1 b - - 7 20",
+    "mode": "without_stockfish",
+    "best_move_san": "Qxf2+",
+    "concept": "attack on f2 or f7",
+    "justification": "The best move is Qxf2+, which directly attacks the weak point f2. This move is correct because it takes advantage of the exposed position of the white king and the lack of defenders around the f2 square, putting pressure on White's position and gaining a significant advantage. The concept of attack on f2 or f7 is relevant here, as it highlights the vulnerability of the king's position when the pawn in front of it is not well-protected, making Qxf2+ a powerful and strategic move.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T16:55:32.384578+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "3B4/1kb4p/p1p3p1/P1K5/6P1/7P/8/8 w - - 2 46",
+    "mode": "without_stockfish",
+    "best_move_san": "b6",
+    "concept": "advanced pawn",
+    "justification": "The best move is b6, which utilizes the concept of an advanced pawn. By playing b6, White advances their pawn on the b-file, gaining more space on the queenside and potentially creating a passed pawn. This move is correct because it improves White's pawn structure and brings the pawn closer to promotion, putting pressure on Black's position and limiting their mobility. The advanced pawn on b6 also has the potential to divert Black's attention and resources to the queenside, making it harder for them to defend against other potential threats.",
+    "parse_error": null
+  }
+]

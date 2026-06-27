@@ -1,0 +1,4 @@
+python-chess>=1.999
+transformers>=4.44
+torch>=2.2
+accelerate>=0.30

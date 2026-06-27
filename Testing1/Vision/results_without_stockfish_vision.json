@@ -1,0 +1,272 @@
+[
+  {
+    "timestamp": "2026-06-24T18:09:27.681608+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "6k1/6b1/B5p1/1pr3p1/2p1P3/6P1/P4P1P/1R4K1 b - - 2 32",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Rc1+",
+    "concept": "back rank mate",
+    "justification": "The black rook on c3 can deliver a check to the white king on g1 by moving to c1. The white king has no escape squares because its own pawns on f2 and h2 block flight squares, and the back rank (first rank) is otherwise unguarded. This is a classic back rank mate pattern: the king is trapped behind its own pawns with no lateral escape, and the rook delivers checkmate from the side. No piece can block or capture the rook, making Rc1+ checkmate.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:10:17.815189+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "rnbqk1nr/1ppp1ppp/p7/2b1p3/2B1P3/5Q2/PPPP1PPP/RNB1K1NR w KQkq - 0 4",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxf7+",
+    "concept": "attack on f2 or f7",
+    "justification": "The move Qxf7+ is the best because it directly attacks the f7 pawn, which is a critical weakness in Black's position early in the game. The f7 square is only defended by the king, and after the check, Black must respond with Kd8 (as Ke7 would be illegal due to the bishop on c4). This forces the black king into an exposed position, disrupting development and creating immediate tactical threats. The queen is well-placed on f3 to execute this attack, and no other move creates such immediate pressure or exploits the vulnerability of f7 as effectively.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:10:53.382557+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "4k2r/rb1qbppp/3p4/1p1P4/8/1Q3N2/PP3PPP/R3R1K1 w k - 2 19",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxb5+",
+    "concept": "fork",
+    "justification": "The move Qxb5+ is a fork because the queen simultaneously attacks the black king (delivering check) and the black rook on a8. After the king is forced to move out of check (e.g., Kf8 or Qd7), White can capture the undefended rook on a8, winning material. This tactical motif exploits the alignment of the king and rook along the 5th rank after the pawn on b5 is captured.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:12:11.222997+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "6k1/pp3ppp/5b2/8/5nQP/1P6/Pq4PK/8 w - - 0 31",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxf4",
+    "concept": "hanging piece",
+    "justification": "The black knight on f4 is undefended and can be captured for free by White's queen. This is a classic 'hanging piece' tactic \u2014 the knight has no protection, and capturing it wins material without immediate retaliation. The board shows no threats to the white queen after Qxf4, and Black\u2019s queen on b2 is not attacking the queen or creating immediate counterplay. Thus, taking the hanging knight is the best move.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:13:16.633196+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "r4rk1/pp2bpp1/2n2n1p/1B1p1q2/3Q3B/2N5/PPP2PPP/R3R1K1 w - - 2 14",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxf5",
+    "concept": "hanging piece",
+    "justification": "The black queen on f5 is undefended and can be captured for free. White's queen on d4 attacks f5, and after Qxf5, White wins material (a queen) without any immediate compensation for Black. This is a classic case of exploiting a hanging piece \u2014 an unprotected enemy piece that can be captured safely.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:14:05.536831+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "7r/3k1ppp/5b2/p1p5/4P3/2N2P2/Pr3P1P/R3K2R w KQ - 0 17",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Rd1+",
+    "concept": "back rank mate",
+    "justification": "The black king is on d7, and the back rank (8th rank) is weakly defended. After 1. Rd1+, Black must respond to the check. If Black plays 1...Kc6 or 1...Ke6, White can follow up with 2. Rxd2, winning the rook. But more critically, if Black tries to block with 1...Rd8, then 2. Rxd8+ Kxd8 leaves the black king exposed and White\u2019s rook on h1 can deliver a back rank mate via Rh8# next move \u2014 but actually, even better: after 1. Rd1+ Kc6 2. Rxd2, White wins material and maintains pressure. However, the most direct tactical theme here is that the black king is trapped on the back rank with no escape squares due to its own pawns and pieces blocking flight squares \u2014 so 1. Rd1+ forces a sequence where White either wins the rook or delivers checkmate. The key concept is 'back rank mate' because the black king is confined to the 8th rank and cannot escape checks along that rank without losing material or being mated.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:15:05.119557+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "3r2k1/1p3ppp/2p1p3/p3P2b/Pb2PP2/1QN3Pq/1P2B2P/3R3K b - - 1 23",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxh2#",
+    "concept": "back rank mate",
+    "justification": "The black queen on h3 can capture the white pawn on h2, delivering checkmate. The white king on h1 is trapped on the back rank (first rank) with no escape squares \u2014 g1 is blocked by its own bishop and h2 is now occupied by the black queen. This is a classic back rank mate pattern where the king is mated along the first rank due to lack of flight squares and inability to capture or block the mating piece.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:16:02.530609+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "4rrk1/pp1b1ppp/4p2n/3p4/3P4/Pq1B1R2/4N1P1/3R1QK1 w - - 0 21",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Rxd5",
+    "concept": "capture the defender",
+    "justification": "The black queen on b3 is attacking the white rook on d1 and the pawn on a3. However, the key tactical idea is to capture the defender of the e6 pawn \u2014 which is the black bishop on d7. By playing Rxd5, White removes the bishop that defends e6, opening up a discovered attack or future threats against the black king\u2019s position. Additionally, after Rxd5, if Black recaptures with ...exd5, then White can play Bxh7+ followed by Ng5+, exploiting the weakened kingside. But more immediately, Rxd5 wins material because the bishop on d7 was defending critical squares and pieces; removing it creates immediate tactical advantages. The move also clears the d-file for potential further attacks. This is a classic 'capture the defender' tactic \u2014 eliminating a piece that protects another valuable target.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:17:45.611863+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "rn1k1b1r/ppp2pp1/4b1np/4P3/2p5/2N2N2/PP1BPPPP/2KR1B1R w - - 4 9",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Nxe6+",
+    "concept": "fork",
+    "justification": "The knight on f4 can capture the bishop on e6 with check (Nxe6+). This move attacks two high-value pieces simultaneously: the black king (forcing it to move) and the black queen\u2019s rook on h8 (which is now undefended after the bishop is removed). After the king moves, White will capture the rook on h8, winning material. This is a classic fork tactic \u2014 using one piece to attack two or more enemy pieces at once, especially when one is the king.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:18:46.085505+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "r1bq1rk1/ppppn1pp/2n5/1Bb1P3/8/1Q3N2/PP1B1PPP/RN2R1K1 b - - 4 12",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Nxe5",
+    "concept": "hanging piece",
+    "justification": "The white pawn on e5 is undefended and attacked by Black's knight on f6. Capturing it with Nxe5 wins a central pawn for free, improving Black's material and position. This is a classic example of exploiting a hanging piece \u2014 an unprotected unit that can be captured without immediate retaliation. The board shows no tactical complications preventing this capture, making it the best move.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:19:27.368462+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "r1b5/pp3R2/3p2k1/4p1r1/4P3/8/P5PP/5RK1 w - - 2 25",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Rf6+",
+    "concept": "back rank mate",
+    "justification": "The black king is on g6, and the white rook on f7 can deliver a check by moving to f6. This forces the black king to move to h5 (since g5 is occupied by the black rook). After Kh5, White plays Rf5#, delivering checkmate. The key concept here is 'back rank mate' because the black king is trapped on the back rank (in this case, the 6th rank) with no escape squares due to the positioning of the pieces. The move Rf6+ sets up the final mating sequence by forcing the king into a position where it cannot avoid the checkmate on the next move.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:20:39.852858+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "r1b3k1/1p3p2/p2p2p1/6P1/2P1P1n1/1P3QP1/PB1qB3/1R3K2 b - - 8 28",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxf2+",
+    "concept": "attack on f2 or f7",
+    "justification": "The black queen on d2 can deliver a check by capturing the pawn on f2. This move exploits the weakness of the f2 square, which is only defended by the white king. After Qxf2+, the white king is forced to move (e.g., Kg1), and Black has won a pawn while maintaining a strong attacking position. The f2 square is a classic target in chess tactics, especially when the king is still in the center or not fully castled, as seen here with the white king on f1.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:22:52.927777+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "r1b1r3/pp3k1p/5pp1/3q4/4p3/5PB1/P1B1Q1PP/5RK1 w - - 0 32",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxe4",
+    "concept": "hanging piece",
+    "justification": "The black pawn on e4 is undefended and can be captured for free. White's queen on e2 can safely capture it with Qxe4, gaining a pawn without any immediate tactical risk. This is a classic example of exploiting a hanging piece \u2014 a piece or pawn that is not protected and can be taken without compensation. The board state shows no immediate threats to the white queen after this capture, making it the most straightforward and best move.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:23:28.411357+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "8/6kp/1qPN2p1/3Pb3/2P1P2P/8/6P1/5R1K w - - 4 35",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Nf5+",
+    "concept": "fork",
+    "justification": "The knight on d6 can move to f5, delivering a check to the black king on g7 and simultaneously attacking the black queen on b6. This is a classic fork \u2014 one piece attacking two high-value targets at once. The king must move out of check, allowing White to capture the undefended queen on the next move, winning decisive material. The visual board confirms the knight\u2019s path to f5 is clear, and both the king and queen are within its attack radius after the move.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:24:15.237533+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "4r2k/1b4p1/2q3pp/p1N1P1r1/2Qp4/1P3P2/P5PP/R3R1K1 w - - 1 28",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxd4",
+    "concept": "hanging piece",
+    "justification": "The black pawn on d4 is undefended and can be captured for free by White's queen. This is a classic 'hanging piece' tactic \u2014 taking material without immediate retaliation. The queen on c4 attacks d4 directly, and no black piece defends it. Capturing the pawn improves White\u2019s material advantage and central control, while also removing a potential threat to White\u2019s position. No other move offers such immediate, risk-free gain.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:24:48.858934+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "8/5p2/pp2bk2/2p4p/2P1K2P/1P3PP1/P1N5/8 b - - 1 28",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Bxc4",
+    "concept": "capture the defender",
+    "justification": "The white knight on c2 is the sole defender of the pawn on c4. Black's bishop on e6 can capture the pawn on c4 (Bxc4), removing a key central pawn and exploiting the fact that the knight cannot recapture without being lost to the black king or other pieces. This move wins material by capturing an undefended pawn after eliminating its protector \u2014 the knight is pinned or unable to defend effectively due to king proximity and lack of support. The concept 'capture the defender' applies because we remove the piece guarding the target (c4 pawn) before taking it.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:25:36.255121+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "1r4k1/p1n2r1p/1b2N1p1/2p1PP2/2p3Pq/5Q2/P1P4P/2B2R1K w - - 2 31",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qf8+",
+    "concept": "back rank mate",
+    "justification": "The black king is on g8 with no escape squares along the back rank (f8 and h8 are blocked or controlled). White\u2019s queen on f3 can deliver checkmate by moving to f8, as the black rook on f7 cannot capture it (it\u2019s pinned by the white knight on e6), and no other piece can block or capture the queen. This is a classic back rank mate pattern: the king is trapped on the first rank with no flight squares, and the attacking queen delivers mate with support from other pieces.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:26:33.102848+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "rn3rk1/ppb2ppp/2p1p3/8/3PN2q/5N2/PPPBBPPn/R2Q1RK1 b - - 9 16",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Nxf1",
+    "concept": "hanging piece",
+    "justification": "The white rook on f1 is undefended and can be captured for free by Black's knight on h2. This is a classic 'hanging piece' tactic \u2014 capturing an unprotected enemy piece to gain material advantage. The move Nxf1 wins a full rook (5 points) with no immediate compensation for White, making it the best move in this position.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:27:29.831829+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "R7/5p2/1K6/5b2/8/8/2p3kp/2R5 b - - 0 58",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "c1=Q",
+    "concept": "promotion",
+    "justification": "Black's pawn on c2 is one square away from promotion. Moving it to c1 and promoting to a queen (c1=Q) immediately creates a powerful new piece that can attack White's king and rook, while also threatening checkmate or material gain. This is the most forcing and decisive move available, as it transforms a pawn into the strongest piece on the board, leveraging the concept of 'promotion' to convert a positional advantage into a winning one.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:28:43.664870+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "rn2kb1r/p3pppp/1q3n2/8/p1B1pPQ1/8/1PPP3P/RNB1K1R1 w Qkq - 3 15",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxg7",
+    "concept": "attack on f7",
+    "justification": "The white queen on g4 is aligned with the black king on e8 and the vulnerable f7 square. By playing Qxg7, White captures the pawn on g7, which is a key defender of f7 and also opens a direct line to attack f7. This move exploits the exposed position of the black king and the lack of defenders around f7, creating immediate threats including potential mate or material gain. The concept 'attack on f7' applies because f7 is a classic weak point in the opening/middlegame, especially when the king is still in the center and not castled.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:31:34.818589+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "r3r1k1/5p2/p6p/1p4p1/2p5/2P2QP1/PP2RP1q/R4K2 b - - 0 27",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qh1+",
+    "concept": "back rank mate",
+    "justification": "Black's queen on h2 delivers a check to the white king on f1. The white king has no legal moves: it cannot go to e2 (blocked by its own rook), g2 (blocked by its own pawn), or f2 (attacked by black's queen). The white rook on e2 is pinned and cannot capture the queen because that would expose the king to check from the black rook on e8. This is a classic back rank mate pattern where the king is trapped on the first rank by its own pieces and cannot escape the queen's attack.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:32:04.204860+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "r3k2r/ppq1bppp/2n1p1b1/1B1n4/3P4/4BNNP/PP3PP1/R2Q1RK1 b kq - 4 14",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Nxe3",
+    "concept": "capture the defender",
+    "justification": "The black knight on d5 captures the white bishop on e3. The bishop on e3 is a key defender, controlling important diagonals and supporting White's kingside structure. By removing it, Black weakens White's control over critical squares (like f4 and d4) and opens lines for future attacks. Additionally, after Nxe3, if White recaptures with fxe3, it further weakens White\u2019s pawn structure around the king. This move exploits the fact that the bishop is undefended and its removal creates long-term strategic advantages \u2014 fitting the 'capture the defender' concept precisely.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:32:48.999504+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "1r3r2/3p1p1k/4b1pP/p7/1pq5/3B2R1/PPPQ1P2/1K2R3 b - - 15 36",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxd3",
+    "concept": "hanging piece",
+    "justification": "The white bishop on d3 is undefended and under attack by the black queen on c4. Capturing it with Qxd3 wins a full piece for free, as there is no immediate recapture or tactical justification for White to leave it en prise. This is a classic example of exploiting a hanging piece \u2014 a piece that is not protected and can be captured without compensation.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:33:17.152257+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "2k5/3b3p/3p3B/3Pn3/2P1P1P1/p3N2P/4B3/7K b - - 0 37",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Nc6",
+    "concept": "defensive move",
+    "justification": "Black's knight on e5 is under attack by White's bishop on h6. Moving the knight to c6 defends against this threat while also preparing to support the d5 pawn and potentially challenge White's central control. This is a defensive move because it removes the knight from immediate danger without sacrificing material or creating new weaknesses.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:33:53.848325+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "5r1k/pp4pp/1qnp4/2b3N1/2b5/2N1r3/PP4PP/R4RK1 w - - 0 21",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Nxf7+",
+    "concept": "fork",
+    "justification": "The move Nxf7+ is a knight fork that simultaneously attacks the black king on g8 and the black queen on b6. After the king moves (e.g., Kh8), White can capture the queen with Nxb6, winning material. This is a classic tactical motif where the knight\u2019s L-shaped movement allows it to attack two high-value pieces at once, exploiting their relative positions on the board.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:39:36.018918+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "2r2rk1/p3p2p/bpR2pp1/3P4/1Q2Pq2/5B2/P4PPP/2R3K1 b - - 7 20",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Qxf3",
+    "concept": "hanging piece",
+    "justification": "The white bishop on f3 is undefended (a 'hanging piece'). Black can capture it immediately with 1...Qxf3. This wins a full piece for free, as White has no recapture or immediate threat that compensates for the material loss. The queen is safe on f3, and this move significantly improves Black's position by gaining material advantage.",
+    "parse_error": null
+  },
+  {
+    "timestamp": "2026-06-24T18:40:41.620797+00:00",
+    "model": "qwen/qwen3.5-397b-a17b",
+    "fen": "3B4/1kb4p/p1p3p1/P1K5/6P1/7P/8/8 w - - 2 46",
+    "mode": "without_stockfish_vision",
+    "best_move_san": "Bxc7",
+    "concept": "capture the defender",
+    "justification": "The black bishop on c7 is defending the black king from immediate threats and also controls key diagonals. By playing Bxc7, White captures this critical defender, removing a key piece that helps coordinate Black's defense. After Bxc7, Black's king is more exposed, and White can proceed to advance pawns or use the king to support promotion, as the bishop was the main piece preventing White's king from penetrating or supporting pawn advances. The move directly removes a vital defensive piece, aligning with the 'capture the defender' concept.",
+    "parse_error": null
+  }
+]
