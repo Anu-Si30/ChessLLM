@@ -55,6 +55,9 @@ def extract_json(text: str) -> dict:
     Pulls the first {...} JSON object out of a model response, even if the
     model added extra prose or markdown fences around it.
     """
+    if not text:
+        raise ValueError("Model returned empty or None response")
+
     # strip markdown code fences if present
     text = re.sub(r"```(?:json)?", "", text).strip()
 

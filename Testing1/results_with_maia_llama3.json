@@ -1,0 +1,36 @@
+[
+  {
+    "timestamp": "2026-06-30T06:27:50.960598+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 4 4",
+    "mode": "with_maia",
+    "maia_error": "'Namespace' object has no attribute 'maia_model'"
+  },
+  {
+    "timestamp": "2026-06-30T06:30:02.824213+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 4 4",
+    "mode": "with_maia",
+    "maia_error": "expected str, bytes or os.PathLike object, not NoneType"
+  },
+  {
+    "timestamp": "2026-06-30T06:42:38.018126+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 4 4",
+    "mode": "with_maia",
+    "maia_error": ""
+  },
+  {
+    "timestamp": "2026-06-30T08:26:30.397448+00:00",
+    "model": "meta/llama-3.3-70b-instruct",
+    "fen": "r1bqkbnr/pppp1ppp/2n5/4p3/2B1P3/5N2/PPPP1PPP/RNBQK2R b KQkq - 4 4",
+    "mode": "with_maia",
+    "maia_move_uci": "f8c5",
+    "maia_move_san": "Bc5",
+    "maia_eval": "-29",
+    "best_move_san": "Bc5",
+    "concept": "pin",
+    "justification": "The move Bc5 is the best move in this position because it puts pressure on the knight on c6, which is defending the d5 pawn. By developing the bishop to c5, Black is preparing to potentially pin the knight against the queen if White plays d4, which would put the knight in a vulnerable position. This pin would give Black a strong initiative and put White on the defensive, which is reflected in the engine's evaluation of -29, indicating a significant advantage for Black. The bishop on c5 also exerts influence over the d4 square, preparing to potentially control the center of the board and limit White's mobility.",
+    "parse_error": null
+  }
+]

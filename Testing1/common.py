@@ -47,6 +47,31 @@ def get_best_move(fen: str, stockfish_path: str = None, think_time: float = 0.5)
 
     return best_move.uci(), san, score_str
 
+def get_best_move_maia(fen: str, maia_model: str = "maia3-5m", think_time: float = 0.5):
+    """
+    Given a FEN, ask Maia3 for the best move.
+    Returns (best_move_uci, best_move_san, score_str).
+    """
+    import sys
+    maia_model = maia_model or "maia3-5m"
+    board = chess.Board(fen)
+
+    with chess.engine.SimpleEngine.popen_uci([
+        sys.executable, "-m", "maia3.uci", 
+        "--model", maia_model, 
+        "--use-uci-history"
+    ]) as engine:
+        result = engine.play(board, chess.engine.Limit(nodes=1))
+        best_move = result.move
+        san = board.san(best_move)
+        
+        # Maia doesn't evaluate score like Stockfish, but we can query it
+        info = engine.analyse(board, chess.engine.Limit(nodes=1))
+        score = info.get("score")
+        score_str = str(score.white()) if score else "0.00"
+
+    return best_move.uci(), san, score_str
+
 
 def load_model(model_name: str = DEFAULT_MODEL_NAME):
     """
